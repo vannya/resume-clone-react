@@ -1,7 +1,74 @@
 @import './colors.scss';
 
 .main-page {
-	min-height: 500px;
+	display: inline-flex;
+	min-height: 800px;
 	background-color: $white;
 	color: $black;
+
+	hr {
+		width: 12rem;
+		border-top: none;
+		border-bottom: 1px solid $hr-color;
+	}
+
+	.left-side-bar {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		flex: 1 0 40%;
+		text-indent: 2rem;
+
+		.left-side-bar-item{
+			flex: 1;
+			padding: 2rem;
+
+			h3{
+				color: $main;
+			}
+
+			.personal-box {
+				display: flex;
+				flex-direction: column;
+
+				text-align: left;
+
+				hr{
+					width: 12rem;
+				}
+
+				.data-item {
+					display: inline-flex;
+					justify-content: space-between;
+					font-size: 0.8rem;
+					.keyName {
+						font-weight: bold;
+						flex: 1 0 40%;
+					}
+
+					.valueName {
+						text-indent: 0;
+						flex: 1 0 60%;
+					}					
+				}
+
+
+
+			}
+		}
+	}
+
+	.right-side-bar {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		flex: 1 0 60%;
+		background-color: green;
+
+		.right-side-bar-item {
+			padding: 2rem;
+			flex: 1;
+			background-color: orange;
+		}
+	}
 }

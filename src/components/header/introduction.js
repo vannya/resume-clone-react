@@ -10,7 +10,7 @@ function Introduction(props){
 				<div className="job">Job</div>
 			</div>
 			<div className="right">
-				<img src={ logo } className='header-image'/>
+				<img src={ logo } className='header-image' alt=''/>
 			</div>
 		</div>
 	);

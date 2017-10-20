@@ -3,7 +3,10 @@ import React from 'react';
 function DataItem(props){
 
 	return(
-		<div className="">Exists</div>
+		<div className="data-item">
+			<span className="keyName">Key</span>
+			<span className="valueName">Value</span>
+		</div>
 	);
 }
 
