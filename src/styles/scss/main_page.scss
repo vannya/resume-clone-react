@@ -1,1 +1,7 @@
 @import './colors.scss';
+
+.main-page {
+	min-height: 500px;
+	background-color: $white;
+	color: $black;
+}

@@ -4,7 +4,7 @@ import '../../styles/css/main_page.css';
 function MainPage(props){
 
 	return(
-		<div className="">MainPage</div>
+		<div className="main-page">MainPage</div>
 	);
 }
 
