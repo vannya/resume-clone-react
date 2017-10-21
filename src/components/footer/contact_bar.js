@@ -3,7 +3,10 @@ import React from 'react';
 function ContactBar(props){
 
 	return(
-		<div className="">Exists</div>
+		<div className="contact-bar">
+			<div className="left">Contact Information</div>
+			<div className="right">Website</div>
+		</div>
 	);
 }
 

@@ -3,7 +3,7 @@ import React from 'react';
 function SocialBar(props){
 
 	return(
-		<div className="">Exists</div>
+		<div className="social-bar">SocialBar</div>
 	);
 }
 

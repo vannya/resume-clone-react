@@ -1,1 +1,58 @@
 @import './colors.scss';
+
+.header {
+	display: flex;
+	flex-direction: column;
+	height: 200px;
+	text-align: center;
+	background-color: $main;
+	color: $font-lt;
+
+	.navbar {
+		display: inline-flex;
+		height: 50px;
+		background-color: $accent;
+		padding-left: 7%;
+		align-items: center;
+		text-transform: uppercase;
+
+		.nav-link{
+			padding-left: 1rem;
+			padding-right: 1rem;
+		}
+	}
+
+	.introduction {
+		display: flex;
+		flex-wrap: nowrap;
+		height: 150px;
+		.left {
+			display: inline-flex;
+			flex-direction: column;
+			flex: 2 0 60%;
+			justify-content: center;
+			align-content: center;
+			text-align: left;
+			text-indent: 4rem;
+
+			.name{
+				font-size: 2rem;
+			}
+		}
+
+		.right {
+			display: inline-flex;
+			flex: 1 0 40%;
+			justify-content: center;
+			align-items: center;
+			text-align: right;
+
+			img{
+				height: 100px;
+				width: 100px;
+				background-color: green;
+				border-radius: 50%;
+			}
+		}
+	}
+}

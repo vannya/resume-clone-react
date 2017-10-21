@@ -1,10 +1,23 @@
 import React from 'react';
+import Personal from './personal';
+import Software from './software';
+import Hobbies from './hobbies';
 import '../../../styles/css/left_side_bar.css';
 
 function LeftSideBar(props){
 
 	return(
-		<div className="">Exists</div>
+		<div className="left-side-bar">
+			<div className="left-side-bar-item">
+				<Personal />
+			</div>
+			<div className="left-side-bar-item">
+				<Software />
+			</div>
+			<div className="left-side-bar-item">
+				<Hobbies />
+			</div>
+		</div>
 	);
 }
 
