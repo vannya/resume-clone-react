@@ -16,27 +16,21 @@
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
-		flex: 1 0 40%;
+		flex: 1 0 35%;
 		text-indent: 2rem;
-
 		.left-side-bar-item{
 			flex: 1;
-			padding: 2rem;
-
-			h3{
+			padding-left: 2rem;
+			h3 {
 				color: $main;
 			}
-
 			.personal-box {
 				display: flex;
 				flex-direction: column;
-
 				text-align: left;
-
 				hr{
 					width: 12rem;
 				}
-
 				.data-item {
 					display: inline-flex;
 					justify-content: space-between;
@@ -45,15 +39,60 @@
 						font-weight: bold;
 						flex: 1 0 40%;
 					}
-
 					.valueName {
 						text-indent: 0;
 						flex: 1 0 60%;
 					}					
 				}
+			}
+			.software-box {
+				display: flex;
+				flex-direction: column;
+				text-align: left;
+				.bar-item {
+					display: inline-flex;
+					justify-content: space-between;
+					font-size: 0.8rem;
+					.language-name {
+						flex: 1 0 40%;
+						margin-bottom: 0.5rem;
+					}
+					.progress-bar{
+						text-indent: 0;
+						flex: 1 0 60%;
 
+					}
+				}
 
+			}
+			.hobbies-box {
+				display: flex;
+				flex-direction: column;
+				text-align: left;
+				.hobbies-row{
+					display: inline-flex;
+					justify-content: space-around;
+					padding-left: 0.75rem;
+					padding-right: 0.75rem;
 
+					.hobbies-links{
+						text-indent: 0;
+						display: flex;
+						flex-direction: column;
+						font-size: 0.8rem;
+						text-align: center;
+						margin-bottom: 0.5rem;
+
+						.fa-circle{
+							color: $accent-lt;
+						}
+
+						.hobbies-label {
+							color: $font-dk;
+							font-weight: bold;
+						}
+					}					
+				}
 			}
 		}
 	}
@@ -62,7 +101,7 @@
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
-		flex: 1 0 60%;
+		flex: 1 0 65%;
 		background-color: green;
 
 		.right-side-bar-item {
