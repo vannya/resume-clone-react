@@ -30,7 +30,7 @@
 /* Text inside the control */
 .progress-circle span {
     text-indent: 0;
-    font-size: 0.9rem;
+    font-size: 0.75rem;
     position: absolute;
     line-height: 5rem;
     height: 5rem;

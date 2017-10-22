@@ -5,8 +5,8 @@ function PieItem(props){
 
 	return(
 		<div className="pie-item">
-			<div class="progress-circle p35">
-				<span>Design</span>
+			<div className={`progress-circle p${ props.data.percentage }`}>
+				<span>{ props.data.label }</span>
 				<div className="left-half-clipper">
   					<div className="first50-bar"></div>
  					<div className="value-bar"></div>

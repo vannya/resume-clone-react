@@ -1,9 +1,8 @@
 .header {
   display: flex;
   flex-direction: column;
-  height: 200px;
+  min-height: 200px;
   text-align: center;
-  background-color: #03A9F4;
   color: white; }
   .header .navbar {
     display: inline-flex;
@@ -18,7 +17,10 @@
   .header .introduction {
     display: flex;
     flex-wrap: nowrap;
-    height: 150px; }
+    height: 150px;
+    box-shadow: 0 5px 4px -3px #616161;
+    z-index: 2;
+    background-color: #03A9F4; }
     .header .introduction .left {
       display: inline-flex;
       flex-direction: column;
@@ -28,6 +30,7 @@
       text-align: left;
       text-indent: 4rem; }
       .header .introduction .left .name {
+        margin-bottom: 0.5rem;
         font-size: 2rem; }
     .header .introduction .right {
       display: inline-flex;
@@ -40,3 +43,15 @@
         width: 100px;
         background-color: green;
         border-radius: 50%; }
+  .header .blurb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    background-color: rgba(97, 97, 97, 0.6);
+    font-size: 0.9rem;
+    text-align: left; }
+    .header .blurb p {
+      text-indent: 0;
+      margin-left: 4rem;
+      margin-right: 4rem; }

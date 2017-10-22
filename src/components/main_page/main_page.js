@@ -7,8 +7,8 @@ function MainPage(props){
 
 	return(
 		<div className="main-page">
-			<LeftSideBar />
-			<RightSideBar />
+			<LeftSideBar resume={ props.resume }/>
+			<RightSideBar resume={ props.resume }/>
 		</div>
 	);
 }

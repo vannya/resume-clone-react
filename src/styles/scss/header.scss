@@ -3,9 +3,8 @@
 .header {
 	display: flex;
 	flex-direction: column;
-	height: 200px;
+	min-height: 200px;
 	text-align: center;
-	background-color: $main;
 	color: $font-lt;
 
 	.navbar {
@@ -26,6 +25,9 @@
 		display: flex;
 		flex-wrap: nowrap;
 		height: 150px;
+		box-shadow: 0 5px 4px -3px $highlight;
+		z-index: 2;
+		background-color: $main;
 		.left {
 			display: inline-flex;
 			flex-direction: column;
@@ -36,6 +38,7 @@
 			text-indent: 4rem;
 
 			.name{
+				margin-bottom: 0.5rem;
 				font-size: 2rem;
 			}
 		}
@@ -54,5 +57,21 @@
 				border-radius: 50%;
 			}
 		}
+	}
+
+	.blurb {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 100px;
+		background-color: rgba($highlight, 0.6);
+		font-size: 0.9rem;
+		text-align: left;
+		p{
+			text-indent: 0;
+			margin-left: 4rem;
+			margin-right: 4rem;
+		}
+
 	}
 }

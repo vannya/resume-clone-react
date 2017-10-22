@@ -2,9 +2,10 @@
 
 .main-page {
 	display: inline-flex;
-	min-height: 800px;
 	background-color: $white;
 	color: $black;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 
 	hr {
 		width: 12rem;
@@ -17,7 +18,6 @@
 		justify-content: center;
 		flex-direction: column;
 		flex: 1 0 35%;
-		text-indent: 2rem;
 		.left-side-bar-item{
 			flex: 1;
 			padding-left: 2rem;
@@ -25,24 +25,30 @@
 				color: $main;
 			}
 			.personal-box {
-				display: flex;
-				flex-direction: column;
-				text-align: left;
-				hr{
-					width: 12rem;
-				}
-				.data-item {
-					display: inline-flex;
-					justify-content: space-between;
-					font-size: 0.8rem;
-					.keyName {
-						font-weight: bold;
-						flex: 1 0 40%;
+
+
+				.data-item-wrapper{
+					display: flex;
+					flex-direction: column;
+					text-align: left;
+					hr{
+						margin-right: 2rem;
+						width: 80%;
 					}
-					.valueName {
-						text-indent: 0;
-						flex: 1 0 60%;
-					}					
+					.data-item {
+						display: inline-flex;
+						justify-content: space-between;
+						font-size: 0.8rem;
+						.keyName {
+							min-width: 7rem;
+							font-weight: bold;
+							flex: 1 0 40%;
+						}
+						.valueName {
+							text-indent: 0;
+							flex: 1 0 60%;
+						}					
+					}				
 				}
 			}
 			.software-box {
@@ -53,14 +59,24 @@
 					display: inline-flex;
 					justify-content: space-between;
 					font-size: 0.8rem;
+					margin-right: 4rem;
 					.language-name {
 						flex: 1 0 40%;
 						margin-bottom: 0.5rem;
+						margin-right: 0.6rem;
+						min-width: 7rem;
 					}
 					.progress-bar{
 						text-indent: 0;
 						flex: 1 0 60%;
-
+						width: 100%;
+						height: 10px;
+						background-color: $hr-color;
+						.the-bar {
+							text-indent: 0;
+							height: 10px;
+							background-color: $main;
+						}
 					}
 				}
 
@@ -69,18 +85,23 @@
 				display: flex;
 				flex-direction: column;
 				text-align: left;
-				.hobbies-row{
-					display: inline-flex;
+				.hobbies-item{
+					display: flex;
 					justify-content: space-around;
 					padding-left: 0.75rem;
 					padding-right: 0.75rem;
+					max-width: 80%;
+					flex-wrap: wrap;
 
 					.hobbies-links{
 						text-indent: 0;
 						display: flex;
+						justify-content: center;
+						align-items: center;
 						flex-direction: column;
 						font-size: 0.8rem;
 						text-align: center;
+						width: 50px;
 						margin-bottom: 0.5rem;
 
 						.fa-circle{
@@ -149,9 +170,16 @@
 							margin-bottom: 0.5rem;
 							.year {
 								position: relative;
-								left: -4rem;
+								left: -2rem;
 							}
 						}
+						.item-desc {
+							text-indent: 0;
+							text-align: left;
+							margin-left: 2rem;
+							margin-right: 1rem;
+						}
+
 					}
 
 					.bottom{
@@ -218,7 +246,7 @@
 							margin-bottom: 0.5rem;
 							.year {
 								position: relative;
-								left: -4rem;
+								left: -2rem;
 							}
 						}
 					}

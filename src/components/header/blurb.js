@@ -3,7 +3,9 @@ import React from 'react';
 function Blurb(props){
 
 	return(
-		<div className="">Exists</div>
+		<div className="blurb">
+			<p>{ props.resume.blurb }</p>
+		</div>
 	);
 }
 
