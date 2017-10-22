@@ -102,12 +102,137 @@
 		justify-content: center;
 		flex-direction: column;
 		flex: 1 0 65%;
-		background-color: green;
+		background-color: $white;
+		text-indent: 2rem;
+		border-left: 1px solid $hr-color;
 
 		.right-side-bar-item {
-			padding: 2rem;
 			flex: 1;
-			background-color: orange;
+			h3 {
+				color: $main;
+			}
+
+			.work-box {
+				display: flex;
+				flex-direction: column;
+				.bulleted-item {
+					display: inline-flex;
+					margin-bottom: 0.5rem;
+					font-size: 0.9rem;
+					.left {
+						display: flex;
+						justify-content: flex-end;
+						flex: 1 0 10%;
+						.bullet {
+							position: relative;
+							text-indent: 0;
+							.fa-fw{
+								height: 16px;
+								width: 16px;
+							}
+							.fa-stack-2x{
+								color: $hr-color;
+							}
+							.fa-stack-1x {
+								color: $main;
+							}
+						}
+					}
+					.right {
+						display: flex;
+						flex-direction: column;
+						flex: 1 0 90%;
+						.item-header {
+							display: flex;
+							justify-content: space-between;
+							font-weight: bold;
+							margin-bottom: 0.5rem;
+							.year {
+								position: relative;
+								left: -4rem;
+							}
+						}
+					}
+
+					.bottom{
+
+					}
+					
+					hr{
+						width: 85%;
+					}
+				}
+			}
+			.skills-box {
+				display: flex;
+				flex-direction: column;
+				.skills-row{
+					margin-left: 1.5rem;
+					margin-right: 1.5rem;
+					display: inline-flex;
+					justify-content: space-between;
+					.pie-item{
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+				}		
+				
+			}
+
+
+			.education-box {
+				display: flex;
+				flex-direction: column;
+				.bulleted-item {
+					display: inline-flex;
+					margin-bottom: 0.5rem;
+					font-size: 0.9rem;
+					.left {
+						display: flex;
+						justify-content: flex-end;
+						flex: 1 0 10%;
+						.bullet {
+							position: relative;
+							text-indent: 0;
+							.fa-fw{
+								height: 16px;
+								width: 16px;
+							}
+							.fa-stack-2x{
+								color: $hr-color;
+							}
+							.fa-stack-1x {
+								color: $main;
+							}
+						}
+					}
+					.right {
+						display: flex;
+						flex-direction: column;
+						flex: 1 0 90%;
+						.item-header {
+							display: flex;
+							justify-content: space-between;
+							font-weight: bold;
+							margin-bottom: 0.5rem;
+							.year {
+								position: relative;
+								left: -4rem;
+							}
+						}
+					}
+
+					.bottom{
+
+					}
+					
+					hr{
+						width: 85%;
+					}
+				}
+			}
+
 		}
 	}
 }

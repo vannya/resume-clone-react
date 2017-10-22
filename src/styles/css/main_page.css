@@ -74,8 +74,92 @@
     justify-content: center;
     flex-direction: column;
     flex: 1 0 65%;
-    background-color: green; }
+    background-color: white;
+    text-indent: 2rem;
+    border-left: 1px solid #E0E0E0; }
     .main-page .right-side-bar .right-side-bar-item {
-      padding: 2rem;
-      flex: 1;
-      background-color: orange; }
+      flex: 1; }
+      .main-page .right-side-bar .right-side-bar-item h3 {
+        color: #03A9F4; }
+      .main-page .right-side-bar .right-side-bar-item .work-box {
+        display: flex;
+        flex-direction: column; }
+        .main-page .right-side-bar .right-side-bar-item .work-box .bulleted-item {
+          display: inline-flex;
+          margin-bottom: 0.5rem;
+          font-size: 0.9rem; }
+          .main-page .right-side-bar .right-side-bar-item .work-box .bulleted-item .left {
+            display: flex;
+            justify-content: flex-end;
+            flex: 1 0 10%; }
+            .main-page .right-side-bar .right-side-bar-item .work-box .bulleted-item .left .bullet {
+              position: relative;
+              text-indent: 0; }
+              .main-page .right-side-bar .right-side-bar-item .work-box .bulleted-item .left .bullet .fa-fw {
+                height: 16px;
+                width: 16px; }
+              .main-page .right-side-bar .right-side-bar-item .work-box .bulleted-item .left .bullet .fa-stack-2x {
+                color: #E0E0E0; }
+              .main-page .right-side-bar .right-side-bar-item .work-box .bulleted-item .left .bullet .fa-stack-1x {
+                color: #03A9F4; }
+          .main-page .right-side-bar .right-side-bar-item .work-box .bulleted-item .right {
+            display: flex;
+            flex-direction: column;
+            flex: 1 0 90%; }
+            .main-page .right-side-bar .right-side-bar-item .work-box .bulleted-item .right .item-header {
+              display: flex;
+              justify-content: space-between;
+              font-weight: bold;
+              margin-bottom: 0.5rem; }
+              .main-page .right-side-bar .right-side-bar-item .work-box .bulleted-item .right .item-header .year {
+                position: relative;
+                left: -4rem; }
+          .main-page .right-side-bar .right-side-bar-item .work-box .bulleted-item hr {
+            width: 85%; }
+      .main-page .right-side-bar .right-side-bar-item .skills-box {
+        display: flex;
+        flex-direction: column; }
+        .main-page .right-side-bar .right-side-bar-item .skills-box .skills-row {
+          margin-left: 1.5rem;
+          margin-right: 1.5rem;
+          display: inline-flex;
+          justify-content: space-between; }
+          .main-page .right-side-bar .right-side-bar-item .skills-box .skills-row .pie-item {
+            display: flex;
+            justify-content: center;
+            align-items: center; }
+      .main-page .right-side-bar .right-side-bar-item .education-box {
+        display: flex;
+        flex-direction: column; }
+        .main-page .right-side-bar .right-side-bar-item .education-box .bulleted-item {
+          display: inline-flex;
+          margin-bottom: 0.5rem;
+          font-size: 0.9rem; }
+          .main-page .right-side-bar .right-side-bar-item .education-box .bulleted-item .left {
+            display: flex;
+            justify-content: flex-end;
+            flex: 1 0 10%; }
+            .main-page .right-side-bar .right-side-bar-item .education-box .bulleted-item .left .bullet {
+              position: relative;
+              text-indent: 0; }
+              .main-page .right-side-bar .right-side-bar-item .education-box .bulleted-item .left .bullet .fa-fw {
+                height: 16px;
+                width: 16px; }
+              .main-page .right-side-bar .right-side-bar-item .education-box .bulleted-item .left .bullet .fa-stack-2x {
+                color: #E0E0E0; }
+              .main-page .right-side-bar .right-side-bar-item .education-box .bulleted-item .left .bullet .fa-stack-1x {
+                color: #03A9F4; }
+          .main-page .right-side-bar .right-side-bar-item .education-box .bulleted-item .right {
+            display: flex;
+            flex-direction: column;
+            flex: 1 0 90%; }
+            .main-page .right-side-bar .right-side-bar-item .education-box .bulleted-item .right .item-header {
+              display: flex;
+              justify-content: space-between;
+              font-weight: bold;
+              margin-bottom: 0.5rem; }
+              .main-page .right-side-bar .right-side-bar-item .education-box .bulleted-item .right .item-header .year {
+                position: relative;
+                left: -4rem; }
+          .main-page .right-side-bar .right-side-bar-item .education-box .bulleted-item hr {
+            width: 85%; }
