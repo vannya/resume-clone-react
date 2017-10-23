@@ -5,9 +5,9 @@ function NavBar(props){
 
 	return(
 		<div className="navbar">
-			<div className={ window.location.pathname === '/' ? "nav-link active" : "nav-link" }><Link to='/'>Home</Link></div>
-			<div className={ window.location.pathname === '/resume' ? "nav-link active" : "nav-link" }><Link to='/resume'>Resume</Link></div>
-			<div className={ window.location.pathname === '/portfolio' ? "nav-link active" : "nav-link" }><Link to='/portfolio'>Portfolio</Link></div>
+			<div className={ window.location.pathname === '/resume-clone-react/' ? "nav-link active" : "nav-link" }><Link to='/resume-clone-react/'>Home</Link></div>
+			<div className={ window.location.pathname === '/resume-clone-react/resume' ? "nav-link active" : "nav-link" }><Link to='/resume-clone-react/resume'>Resume</Link></div>
+			<div className={ window.location.pathname === '/resume-clone-react/portfolio' ? "nav-link active" : "nav-link" }><Link to='/resume-clone-react/portfolio'>Portfolio</Link></div>
 		</div>
 	);
 }

@@ -150,14 +150,14 @@ var resumeData = {
 			info: 'Website for a hive of bees dedicated to marketing hive communal property. '
 					+'Responsible for React customer interface.',
 			website: 'www.HoneyForAllCommunity.com',
-			img: 'honey2.jpg'
+			img: 'honey.jpg'
 		},
 		{
 			title: 'BearEssentials, Inc',
 			info: 'Designed modern update for wooden furniture design company. Solo project'
 					+ ' using React/Redux with a Firebase backend.',
 			website: 'www.BearEssentialsInc.com',
-			img: 'wood2.jpg'
+			img: 'wood.jpg'
 		},
 		{
 			title: 'Bows for Cubs',
@@ -165,7 +165,7 @@ var resumeData = {
 					+ ' cubs with terminal illnesses.  Personally created the administration'
 					+ ' interface using React.',
 			website: 'www.BowsForCubs.com',
-			img: 'cub3.jpg'
+			img: 'cub.jpg'
 		}
 	],
 }

@@ -2,7 +2,9 @@
   "name": "resume-clone",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://vannya.github.io/resume-clone-react/",
   "dependencies": {
+    "gh-pages": "^1.0.0",
     "node-sass-chokidar": "^0.0.3",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
@@ -10,6 +12,8 @@
     "react-scripts": "1.0.14"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build-css": "node-sass-chokidar src/styles/scss/ -o src/styles/css/",
     "watch-css": "yarn run build-css && node-sass-chokidar src/styles/scss/ -o src/styles/css/ --watch --recursive",
     "start": "react-scripts start",
