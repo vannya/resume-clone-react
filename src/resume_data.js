@@ -16,6 +16,7 @@ var resumeData = {
 		website: 'www.forestbeardesigns.me'
 	},
 	job: 'Web Designer',
+	tagline: 'a background in both natural and modern design',
 	blurb: 'A strong specimen from the family Ursidae, Forest Bear is a formidable asset to any development team.  '  
 			+ 'After a successful career in wooden artwork and design, he transitioned to his true passion: Software and Web Development.  ' 
 			+ 'An excellent leader, proven UI/UX skills and cutting-edge design accompanies the shear force of his talent.',
@@ -87,7 +88,7 @@ var resumeData = {
 		},
 		{
 			position: 'Volunteer Greeter',
-			company: 'Jellystone National Park',
+			company: 'Yellowstone National Park',
 			year: '2000-2005',
 			description: 'Unbearably kind to park visitors. Paid in picnic baskets.'
 		}
@@ -142,7 +143,31 @@ var resumeData = {
 			info: 'www.twitter.com/bearartwork',
 			icon: 'twitter'
 		}
-	]
+	],
+	projects: [
+		{
+			title: 'Honey For All',
+			info: 'Website for a hive of bees dedicated to marketing hive communal property. '
+					+'Responsible for React customer interface.',
+			website: 'www.HoneyForAllCommunity.com',
+			img: 'honey.jpg'
+		},
+		{
+			title: 'BearEssentials, Inc',
+			info: 'Designed modern update for wooden furniture design company. Solo project'
+					+ ' using React/Redux with a Firebase backend.',
+			website: 'www.BearEssentialsInc.com',
+			img: 'wood.jpg'
+		},
+		{
+			title: 'Bows for Cubs',
+			info: 'Worked on a team of developers to redesign a nonprofit website benefiting'
+					+ ' cubs with terminal illnesses.  Personally created the administration'
+					+ ' interface using React.',
+			website: 'www.BowsForCubs.com',
+			img: 'cub.jpg'
+		}
+	],
 }
 
 export default resumeData;
