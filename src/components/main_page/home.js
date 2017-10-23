@@ -3,7 +3,7 @@ import LeftSideBar from './left_side_bar/left_side_bar';
 import RightSideBar from './right_side_bar/right_side_bar';
 import '../../styles/css/main_page.css';
 
-function MainPage(props){
+function Home(props){
 
 	return(
 		<div className="main-page">
@@ -13,4 +13,4 @@ function MainPage(props){
 	);
 }
 
-export default MainPage;
+export default Home;

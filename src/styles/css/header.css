@@ -12,8 +12,14 @@
     align-items: center;
     text-transform: uppercase; }
     .header .navbar .nav-link {
-      padding-left: 1rem;
-      padding-right: 1rem; }
+      margin-left: 1rem;
+      margin-right: 1rem;
+      padding-bottom: 0.75rem; }
+      .header .navbar .nav-link a {
+        color: white;
+        text-decoration: none; }
+      .header .navbar .nav-link.active {
+        border-bottom: 2px solid white; }
   .header .introduction {
     display: flex;
     flex-wrap: nowrap;
@@ -43,15 +49,3 @@
         width: 100px;
         background-color: green;
         border-radius: 50%; }
-  .header .blurb {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100px;
-    background-color: rgba(97, 97, 97, 0.6);
-    font-size: 0.9rem;
-    text-align: left; }
-    .header .blurb p {
-      text-indent: 0;
-      margin-left: 4rem;
-      margin-right: 4rem; }

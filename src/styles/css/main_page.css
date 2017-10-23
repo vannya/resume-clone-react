@@ -1,3 +1,17 @@
+.blurb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  background-color: rgba(97, 97, 97, 0.6);
+  font-size: 0.9rem;
+  text-align: left;
+  color: white; }
+  .blurb p {
+    text-indent: 0;
+    margin-left: 4rem;
+    margin-right: 4rem; }
+
 .main-page {
   display: inline-flex;
   background-color: white;

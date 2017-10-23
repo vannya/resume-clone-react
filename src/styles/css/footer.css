@@ -6,23 +6,43 @@
   background-color: #03A9F4;
   color: white; }
   .footer .social-bar {
-    display: inline-flex;
+    display: flex;
     height: 100px;
     background-color: #03A9F4;
     justify-content: center;
     align-items: center;
     text-align: center; }
+    .footer .social-bar .social-item-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-left: 0.75rem;
+      padding-right: 0.75rem; }
+      .footer .social-bar .social-item-wrapper .social-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        .footer .social-bar .social-item-wrapper .social-item .fa-circle {
+          color: #0288D1; }
+        .footer .social-bar .social-item-wrapper .social-item .label {
+          color: white;
+          font-size: 0.8rem; }
   .footer .contact-bar {
     display: flex;
     flex-wrap: nowrap;
     height: 50px;
-    background-color: #0288D1; }
+    background-color: #0288D1;
+    font-size: 0.75rem; }
     .footer .contact-bar .left {
       display: inline-flex;
       flex: 2 0 70%;
       align-items: center;
       justify-content: center;
       text-align: center; }
+      .footer .contact-bar .left .contact-info {
+        padding-left: 0.75rem; }
     .footer .contact-bar .right {
       display: inline-flex;
       text-align: center;

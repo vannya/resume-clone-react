@@ -7,8 +7,8 @@ function Footer(props){
 
 	return(
 		<div className="footer">
-			<SocialBar />
-			<ContactBar />
+			<SocialBar resume={ props.resume }/>
+			<ContactBar resume={ props.resume }/>
 		</div>
 	);
 }

@@ -1,4 +1,20 @@
 @import './colors.scss';
+.blurb {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100px;
+	background-color: rgba($highlight, 0.6);
+	font-size: 0.9rem;
+	text-align: left;
+	color: $font-lt;
+		p{
+			text-indent: 0;
+			margin-left: 4rem;
+			margin-right: 4rem;
+		}
+
+}
 
 .main-page {
 	display: inline-flex;
@@ -12,6 +28,7 @@
 		border-top: none;
 		border-bottom: 1px solid $hr-color;
 	}
+
 
 	.left-side-bar {
 		display: flex;

@@ -9,10 +9,16 @@ var resumeData = {
 		Languages: ['English', 'Bear'],
 		Telephone: '(907) 644-3510'
 	},
+	contact: {
+		address: '100 Main St. Cody, Wyoming 82414',
+		cell: '(907) 644-3510',
+		email: 'forestbear@fakeemail.com',
+		website: 'www.forestbeardesigns.me'
+	},
 	job: 'Web Designer',
-	blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultrices turpis a velit suscipit aliquet.' 
-			+ 'Cras consectetur nisi non risus iaculis venenatis. Duis rutrum lorem felis, id euismod turpis interdum et.' 
-			+ ' Vestibulum tincidunt est ut risus sagittis, eu dignissim nisl dapibus.',
+	blurb: 'A strong specimen from the family Ursidae, Forest Bear is a formidable asset to any development team.  '  
+			+ 'After a successful career in wooden artwork and design, he transitioned to his true passion: Software and Web Development.  ' 
+			+ 'An excellent leader, proven UI/UX skills and cutting-edge design accompanies the shear force of his talent.',
 	profileImg: './bear.jpg',
 	software: [
 		{
@@ -74,7 +80,7 @@ var resumeData = {
 			description: 'Designed websites for clients. Awarded the HoneyPot of Excellence for customer service in 2014, 2015 and 2016.'
 		},
 		{
-			position: 'Carpenter',
+			position: 'Woodworker',
 			company: 'BearEssentials, Inc',
 			year: '2006-2012',
 			description: 'Built furniture with my bear hands.'
@@ -122,7 +128,21 @@ var resumeData = {
 			label: 'Tech Writing',
 			percentage: '40'
 		}
-	} 
+	},
+	social: [
+		{
+			info: 'www.behance.net/bearartwork',
+			icon: 'behance'
+		},
+		{
+			info: 'www.linkedin.com/bearartwork',
+			icon: 'linkedin'
+		},
+		{
+			info: 'www.twitter.com/bearartwork',
+			icon: 'twitter'
+		}
+	]
 }
 
 export default resumeData;
