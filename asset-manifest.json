@@ -1,12 +1,15 @@
 {
   "main.css": "static/css/main.c088a519.css",
   "main.css.map": "static/css/main.c088a519.css.map",
-  "main.js": "static/js/main.323b7660.js",
-  "main.js.map": "static/js/main.323b7660.js.map",
+  "main.js": "static/js/main.47bcc79f.js",
+  "main.js.map": "static/js/main.47bcc79f.js.map",
   "static\\media\\background.jpg": "static/media/background.c3b7965c.jpg",
+  "static\\media\\bear.jpg": "static/media/bear.b4571a6f.jpg",
+  "static\\media\\cub.jpg": "static/media/cub.91e8e343.jpg",
   "static\\media\\fontawesome-webfont.eot": "static/media/fontawesome-webfont.674f50d2.eot",
   "static\\media\\fontawesome-webfont.svg?v=4.7.0": "static/media/fontawesome-webfont.acf3dcb7.svg",
   "static\\media\\fontawesome-webfont.ttf?v=4.7.0": "static/media/fontawesome-webfont.b06871f2.ttf",
   "static\\media\\fontawesome-webfont.woff2?v=4.7.0": "static/media/fontawesome-webfont.af7ae505.woff2",
-  "static\\media\\fontawesome-webfont.woff?v=4.7.0": "static/media/fontawesome-webfont.fee66e71.woff"
+  "static\\media\\fontawesome-webfont.woff?v=4.7.0": "static/media/fontawesome-webfont.fee66e71.woff",
+  "static\\media\\honey.jpg": "static/media/honey.15e73abd.jpg"
 }
