@@ -8,7 +8,7 @@ function Header(props){
 	return(
 		<div className="header">
 			<NavBar />
-			<Introduction />
+			<Introduction resume={ props.resume }/>
 		</div>
 	);
 }

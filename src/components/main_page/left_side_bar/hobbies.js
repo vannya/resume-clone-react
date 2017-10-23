@@ -6,16 +6,13 @@ function Hobbies(props){
 	return(
 		<div className="hobbies-box">
 			<h3 className="title">Hobbies</h3>
-			<div className="hobbies-row">
-				<IconPlusLabel iconName="binoculars" hobby="Travel" />
-				<IconPlusLabel iconName="binoculars" hobby="Travel" />
-				<IconPlusLabel iconName="binoculars" hobby="Travel" />
-			</div>
-			<div className="hobbies-row">
-				<IconPlusLabel iconName="binoculars" hobby="Travel" />
-				<IconPlusLabel iconName="binoculars" hobby="Travel" />
-				<IconPlusLabel iconName="binoculars" hobby="Travel" />
-			</div>
+			<span className="hobbies-item">
+			{ Object.keys(props.resume.hobbies).map(key => {
+					return(
+						<IconPlusLabel key={ key } iconName={ props.resume.hobbies[key].icon } hobby={ props.resume.hobbies[key].name } />
+					);	
+			}) }
+			</span>
 		</div>
 	);
 }

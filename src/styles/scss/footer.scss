@@ -9,12 +9,35 @@
 	color: $font-lt;
 
 	.social-bar {
-		display: inline-flex;
+		display: flex;
 		height: 100px;
 		background-color: $main;
 		justify-content: center;
 		align-items: center;
 		text-align: center;
+
+		.social-item-wrapper {
+			display: flex;
+			flex-direction: column;	
+			justify-content: center;	
+			align-items: center;
+			padding-left: 0.75rem;
+			padding-right: 0.75rem;
+			.social-item {
+				display: flex;
+				flex-direction: column;	
+				justify-content: center;	
+				align-items: center;	
+				.fa-circle{
+					color: $accent;
+				}
+
+				.label {
+					color: $font-lt;
+					font-size: 0.8rem; 
+				}			
+			}
+		}
 	}
 
 	.contact-bar {
@@ -22,12 +45,16 @@
 		flex-wrap: nowrap;
 		height: 50px;
 		background-color: $accent;
+		font-size: 0.75rem;
 		.left {
 			display: inline-flex;
 			flex: 2 0 70%;
 			align-items: center;
 			justify-content: center;
 			text-align: center;
+			.contact-info {
+				padding-left: 0.75rem;
+			}
 		}
 
 		.right {

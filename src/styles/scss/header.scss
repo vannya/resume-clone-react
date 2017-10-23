@@ -3,9 +3,8 @@
 .header {
 	display: flex;
 	flex-direction: column;
-	height: 200px;
+	min-height: 200px;
 	text-align: center;
-	background-color: $main;
 	color: $font-lt;
 
 	.navbar {
@@ -15,10 +14,19 @@
 		padding-left: 7%;
 		align-items: center;
 		text-transform: uppercase;
-
+		
 		.nav-link{
-			padding-left: 1rem;
-			padding-right: 1rem;
+			margin-left: 1rem;
+			margin-right: 1rem;
+			padding-bottom: 0.75rem;
+			a {
+				color: $font-lt;
+				text-decoration: none;
+			}
+
+			&.active {
+				border-bottom: 2px solid white;
+			}
 		}
 	}
 
@@ -26,6 +34,9 @@
 		display: flex;
 		flex-wrap: nowrap;
 		height: 150px;
+		box-shadow: 0 5px 4px -3px $highlight;
+		z-index: 2;
+		background-color: $main;
 		.left {
 			display: inline-flex;
 			flex-direction: column;
@@ -36,6 +47,7 @@
 			text-indent: 4rem;
 
 			.name{
+				margin-bottom: 0.5rem;
 				font-size: 2rem;
 			}
 		}

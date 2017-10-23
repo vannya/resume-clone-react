@@ -1,16 +1,15 @@
 import React from 'react';
-import logo from '../../logo.svg';
 
 function Introduction(props){
 
 	return(
 		<div className="introduction">
 			<div className="left">
-				<div className="name">Name</div>
-				<div className="job">Job</div>
+				<div className="name">{ props.resume.personal.Name }</div>
+				<div className="job">{ props.resume.job }</div>
 			</div>
 			<div className="right">
-				<img src={ logo } className='header-image' alt=''/>
+				<img src={ props.resume.profileImg } className='header-image' alt=''/>
 			</div>
 		</div>
 	);

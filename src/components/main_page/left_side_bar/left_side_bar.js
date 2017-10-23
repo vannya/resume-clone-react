@@ -9,13 +9,13 @@ function LeftSideBar(props){
 	return(
 		<div className="left-side-bar">
 			<div className="left-side-bar-item">
-				<Personal />
+				<Personal resume={ props.resume }/>
 			</div>
 			<div className="left-side-bar-item">
-				<Software />
+				<Software resume={ props.resume }/>
 			</div>
 			<div className="left-side-bar-item">
-				<Hobbies />
+				<Hobbies resume={ props.resume }/>
 			</div>
 		</div>
 	);

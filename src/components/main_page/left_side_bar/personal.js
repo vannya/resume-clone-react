@@ -6,18 +6,14 @@ function Personal(props){
 	return(
 		<div className="personal-box">
 			<h3 className="title">Personal</h3>
-			<DataItem />
-			<hr />
-			<DataItem />
-			<hr />
-			<DataItem />
-			<hr />
-			<DataItem />
-			<hr />
-			<DataItem />
-			<hr />
-			<DataItem />
-			<hr />
+			{ Object.keys(props.resume.personal).map(key => {
+				return(
+					<div className='data-item-wrapper' key={ key }>
+						<DataItem keyName={ key } valueName={ props.resume.personal[key] } />
+						<hr />
+					</div>
+				);
+			}) }
 		</div>
 	);
 }
