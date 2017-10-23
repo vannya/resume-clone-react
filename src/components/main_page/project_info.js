@@ -4,9 +4,9 @@ function ProjectInfo(props){
 
 	return(
 		<div className="project-info">
-			<h3 className="title">Project 1</h3>
-			<div className="info">Information</div>
-			<div className="website">Website</div>
+			<h3 className="title">{ props.title }</h3>
+			<div className="info">{ props.info }</div>
+			<div className="website">{ props.website }</div>
 		</div>
 	);
 }

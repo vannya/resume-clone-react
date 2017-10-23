@@ -283,17 +283,28 @@
 
 }
 .projects {
+	border: 1px solid $highlight;
 	.project-bar{
 		display: flex;
 		justify-content: space-around;
 		align-items: stretch;
-		min-height: 250px;
-		border: 1px solid black;
+		height: 200px;
 		position: relative;
+		background-color: $white;
+		border-bottom: 1px solid $highlight;
+
+		&.row{
+			flex-direction: row;
+		}
+
+		&.row-reverse{
+			flex-direction: row-reverse;
+		}
+
 		.project-info {
 			display: flex;
 			flex-direction: column;
-			flex: 1 0 25%;
+			flex: 1 0 40%;
 			position: relative;
 			.title {
 				position: absolute;
@@ -308,6 +319,7 @@
 				text-align: left;	
 				color: $font-dk;	
 				font-size: 0.9rem;	
+				margin-right: 1rem;
 			}
 			.website {
 				position: absolute;
@@ -321,7 +333,10 @@
 
 		.project-img {
 			background-color: green;
-			flex: 1 0 75%;
+			flex: 1 0 60%;
+			img {
+				height: 200px;
+			}
 		}
 	}
 }

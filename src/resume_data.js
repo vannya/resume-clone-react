@@ -87,7 +87,7 @@ var resumeData = {
 		},
 		{
 			position: 'Volunteer Greeter',
-			company: 'Jellystone National Park',
+			company: 'Yellowstone National Park',
 			year: '2000-2005',
 			description: 'Unbearably kind to park visitors. Paid in picnic baskets.'
 		}
@@ -142,7 +142,32 @@ var resumeData = {
 			info: 'www.twitter.com/bearartwork',
 			icon: 'twitter'
 		}
-	]
+	],
+	projects: [
+		{
+			title: 'Honey For All',
+			info: 'Website for a hive of bees dedicated to marketing hive communal property. '
+					+'Drove 240% increase in traffic over 6 months and directly responsible'
+					+ ' for 35 new leases. Responsible for React customer interface.',
+			website: 'www.HoneyForAllCommunity.com',
+			img: ''
+		},
+		{
+			title: 'BearEssentials, Inc',
+			info: 'Designed modern update for wooden furniture design company. Solo creation'
+					+ ' using React/Redux with a Firebase backend.',
+			website: 'www.BearEssentialsInc.com',
+			img: ''
+		},
+		{
+			title: 'Bows for Cubs',
+			info: 'Worked on a team of developers to redesign a nonprofit website benefiting'
+					+ ' cubs with terminal illnesses.  Personally created the administration'
+					+ ' interface using React.',
+			website: 'www.BowsForCubs.com',
+			img: ''
+		}
+	],
 }
 
 export default resumeData;
