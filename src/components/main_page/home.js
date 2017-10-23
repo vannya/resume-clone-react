@@ -11,8 +11,8 @@ function Home(props){
 			</div>
 			<div className="button-stripe">
 				<form>
-					<button type="submit" formaction="/resume">View My Resume</button>
-					<button type="submit" formaction="/portfolio">View My Projects</button>
+					<button type="submit" formaction="/resume-clone-react/resume">View My Resume</button>
+					<button type="submit" formaction="/resume-clone-react/portfolio">View My Projects</button>
 				</form>
 			</div>
 			
