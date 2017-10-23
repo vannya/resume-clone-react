@@ -55,7 +55,7 @@ class App extends Component {
             <Switch>
               <Route exact path='/' render={ HomeWithProps }/>
               <Route path='/resume' render={ ResumeWithProps }/>
-              <Route path='/projects' render={ ProjectsWithProps }/>
+              <Route path='/portfolio' render={ ProjectsWithProps }/>
             </Switch>
           </main>
           <footer>
