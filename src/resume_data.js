@@ -16,6 +16,7 @@ var resumeData = {
 		website: 'www.forestbeardesigns.me'
 	},
 	job: 'Web Designer',
+	tagline: 'a background in both natural and modern design',
 	blurb: 'A strong specimen from the family Ursidae, Forest Bear is a formidable asset to any development team.  '  
 			+ 'After a successful career in wooden artwork and design, he transitioned to his true passion: Software and Web Development.  ' 
 			+ 'An excellent leader, proven UI/UX skills and cutting-edge design accompanies the shear force of his talent.',
@@ -147,17 +148,16 @@ var resumeData = {
 		{
 			title: 'Honey For All',
 			info: 'Website for a hive of bees dedicated to marketing hive communal property. '
-					+'Drove 240% increase in traffic over 6 months and directly responsible'
-					+ ' for 35 new leases. Responsible for React customer interface.',
+					+'Responsible for React customer interface.',
 			website: 'www.HoneyForAllCommunity.com',
-			img: ''
+			img: 'honey2.jpg'
 		},
 		{
 			title: 'BearEssentials, Inc',
-			info: 'Designed modern update for wooden furniture design company. Solo creation'
+			info: 'Designed modern update for wooden furniture design company. Solo project'
 					+ ' using React/Redux with a Firebase backend.',
 			website: 'www.BearEssentialsInc.com',
-			img: ''
+			img: 'wood2.jpg'
 		},
 		{
 			title: 'Bows for Cubs',
@@ -165,7 +165,7 @@ var resumeData = {
 					+ ' cubs with terminal illnesses.  Personally created the administration'
 					+ ' interface using React.',
 			website: 'www.BowsForCubs.com',
-			img: ''
+			img: 'cub3.jpg'
 		}
 	],
 }

@@ -12,6 +12,36 @@
     margin-left: 4rem;
     margin-right: 4rem; }
 
+.home {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 600px;
+  background: url(../background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .home .center-stripe {
+    background-color: rgba(255, 255, 255, 0.3); }
+  .home .button-stripe {
+    position: absolute;
+    bottom: 3rem; }
+  .home h1, .home h2 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+    color: black; }
+  .home button {
+    font-size: 1.2rem;
+    padding: 1.2rem;
+    text-transform: uppercase;
+    margin: 2rem;
+    border: 2px solid #E0E0E0;
+    background-color: #0288D1;
+    color: white; }
+
 .main-page {
   display: inline-flex;
   background-color: white;
@@ -217,8 +247,9 @@
     .projects .project-bar .project-info {
       display: flex;
       flex-direction: column;
-      flex: 1 0 40%;
-      position: relative; }
+      flex: 1 1 40%;
+      position: relative;
+      background-color: white; }
       .projects .project-bar .project-info .title {
         position: absolute;
         top: 0;
@@ -238,8 +269,11 @@
         left: 1rem;
         color: #03A9F4;
         font-size: 0.9rem; }
+        .projects .project-bar .project-info .website a {
+          color: #03A9F4;
+          text-decoration: none; }
     .projects .project-bar .project-img {
-      background-color: green;
-      flex: 1 0 60%; }
-      .projects .project-bar .project-img img {
-        height: 200px; }
+      flex: 1 1 60%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center; }

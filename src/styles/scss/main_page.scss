@@ -16,6 +16,45 @@
 
 }
 
+.home {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	min-height: 600px;
+	background: url(../background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	.center-stripe {
+		background-color: rgba(255,255,255, 0.30);
+	}
+
+	.button-stripe {
+		position: absolute;
+		bottom: 3rem;
+	}
+
+	h1, h2 {
+		padding-left: 8rem;
+		padding-right: 8rem;
+		color: $font-dk;
+	}
+
+	button {
+		font-size: 1.2rem;
+		padding: 1.2rem;
+		text-transform: uppercase;
+		margin: 2rem;
+		border: 2px solid $hr-color;
+		background-color: $accent;
+		color: $font-lt;
+	}
+}
+
 .main-page {
 	display: inline-flex;
 	background-color: $white;
@@ -304,8 +343,9 @@
 		.project-info {
 			display: flex;
 			flex-direction: column;
-			flex: 1 0 40%;
+			flex: 1 1 40%;
 			position: relative;
+			background-color: $white;
 			.title {
 				position: absolute;
 				top: 0;
@@ -327,16 +367,19 @@
 				left: 1rem;
 				color: $main;
 				font-size: 0.9rem;	
+				a{
+					color: $main;
+					text-decoration: none;
+				}
 			}
 
 		}
 
 		.project-img {
-			background-color: green;
-			flex: 1 0 60%;
-			img {
-				height: 200px;
-			}
+			flex: 1 1 60%;
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;			
 		}
 	}
 }
