@@ -4,26 +4,26 @@
 	justify-content: center;
 	align-items: center;
 	min-height: 100px;
-	background-color: rgba($highlight, 0.6);
 	font-size: 0.9rem;
 	text-align: left;
 	color: $font-lt;
-		p{
-			text-indent: 0;
-			margin-left: 4rem;
-			margin-right: 4rem;
-		}
+	background-color: rgba($highlight, 0.6);
 
+	p{
+		margin-left: 4rem;
+		margin-right: 4rem;
+		text-indent: 0;
+	}
 }
 
 .home {
-	display: flex;
 	position: relative;
+	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	text-align: center;
 	min-height: 600px;
+	text-align: center;
 	background: url(../background.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;

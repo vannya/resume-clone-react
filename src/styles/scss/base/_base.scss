@@ -1,0 +1,15 @@
+//----------------------------------------------
+//              Basic Styles
+//----------------------------------------------
+
+/**
+*	Box Model Setup
+*/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
