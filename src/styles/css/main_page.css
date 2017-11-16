@@ -3,24 +3,24 @@
   justify-content: center;
   align-items: center;
   min-height: 100px;
-  background-color: rgba(97, 97, 97, 0.6);
   font-size: 0.9rem;
   text-align: left;
-  color: white; }
+  color: white;
+  background-color: rgba(97, 97, 97, 0.6); }
   .blurb p {
-    text-indent: 0;
     margin-left: 4rem;
-    margin-right: 4rem; }
+    margin-right: 4rem;
+    text-indent: 0; }
 
 .home {
-  display: flex;
   position: relative;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
   min-height: 600px;
-  background: url(../background.jpg);
+  text-align: center;
+  background: url(../table.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }

@@ -1,12 +1,14 @@
 @charset 'UTF-8';  //Reminder: Always put first
 
 //1. Abstract
+@import
+  'abstracts/variables';
 
 //2. Vendors
 
 @import 
 	'vendors/normalize',
-	'vendors/include-media;
+	'vendors/include-media';
 
 //3. Base
 
